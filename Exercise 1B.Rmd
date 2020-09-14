@@ -1,0 +1,33 @@
+---
+title: "Exercise 1B"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+## Sampling 100 values from a log-normal distribution (mu = 1, sigma = 0.25)
+
+sample <- rlnorm(100,1,0.25)
+
+## Creating a histogram of the distribution and the distribution on the log scale 
+
+par(mfrow = c(1,2))
+hist(sample, main="Histogram of distribution",xlab="Sample",xlim=c(0.5,6),col="darkgrey")
+hist(log(sample), main="Histogram of distribution on log scale",xlab="Log(Sample)",xlim=c(0,2),col="darkgrey")
+
+```
+
+```{r}
+
+## Mean and variance of the sample:
+## The mean is calculated with mean(sample) whereas the variance is calculated with var(sample)
+
+## The mean of the sample is 2.80
+## The variance of the sample is 0.45
+
+```
+
