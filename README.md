@@ -1,4 +1,4 @@
-# STA426 Exercise 1
+# STA426 Exercise 1A
 
 Public repository for STA426 (Analysis of High-Throughput Genomic Data) at UZH HS2020 :dna:
 
