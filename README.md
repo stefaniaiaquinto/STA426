@@ -6,4 +6,4 @@ Public repository for STA426 (Analysis of High-Throughput Genomic Data) at UZH H
 
 ## Course material
 
-The official repository for STA426 can be found [here](https://github.com/sta426hs2020/).
+The official repository for STA426 can be found _[here](https://github.com/sta426hs2020/)_.
